@@ -1,0 +1,26 @@
+data_monoclinic_zirconia
+_cell_length_a   5.145
+_cell_length_b   5.208
+_cell_length_c   5.311
+_cell_angle_alpha   90.000
+_cell_angle_beta    99.230
+_cell_angle_gamma   90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Zr1 Zr 0.27580 0.04110 0.20870
+Zr2 Zr 0.72420 0.95890 0.79130
+Zr3 Zr 0.72420 0.54110 0.29130
+Zr4 Zr 0.27580 0.45890 0.70870
+O1  O  0.07020 0.33590 0.34070
+O2  O  0.92980 0.66410 0.65930
+O3  O  0.92980 0.83590 0.15930
+O4  O  0.07020 0.16410 0.84070
+O5  O  0.44230 0.75470 0.47890
+O6  O  0.55770 0.24530 0.52110
+O7  O  0.55770 0.25470 0.02110
+O8  O  0.44230 0.74530 0.97890

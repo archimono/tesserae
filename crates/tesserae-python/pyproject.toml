@@ -1,0 +1,34 @@
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "tesserae"
+version = "0.1.0"
+description = "k-ary derivative structure enumeration via T ⋊ P semidirect product decomposition"
+readme = "../../README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Viejay Z. Ordillo", email = "vjordillo@gmail.com" }]
+keywords = ["materials-science", "crystal-structure", "enumeration", "symmetry", "crystallography"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.urls]
+Repository = "https://github.com/vzordillo/tesserae"
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+module-name = "tesserae"
+include = ["tesserae.pyi"]

@@ -1,0 +1,3 @@
+[workspace]
+members = ["crates/tesserae-core", "crates/tesserae-io", "crates/tesserae-python", "crates/tesserae-cli"]
+resolver = "2"

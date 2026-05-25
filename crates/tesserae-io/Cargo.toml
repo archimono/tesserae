@@ -1,0 +1,16 @@
+[package]
+name = "tesserae-io"
+version = "0.1.0"
+edition = "2024"
+description = "CIF/POSCAR I/O and symmetry detection for tesserae"
+repository = "https://github.com/archimono/tesserae"
+keywords = ["crystallography", "enumeration", "symmetry", "necklace", "combinatorics"]
+categories = ["science", "algorithms"]
+
+[dependencies]
+tesserae-core = { path = "../tesserae-core" }
+moyo = "0.9"
+nalgebra = "0.34"
+
+[dev-dependencies]
+tempfile = "3"

@@ -1,0 +1,17 @@
+[package]
+name = "tesserae-core"
+version = "0.1.0"
+edition = "2024"
+description = "Symmetry-inequivalent crystal structure enumeration via T⋊P decomposition"
+repository = "https://github.com/archimono/tesserae"
+keywords = ["crystallography", "enumeration", "symmetry", "necklace", "combinatorics"]
+categories = ["science", "algorithms"]
+
+[dependencies]
+
+[dev-dependencies]
+criterion = { version = "0.5", default-features = false }
+
+[[bench]]
+name = "enumerate"
+harness = false

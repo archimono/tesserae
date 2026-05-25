@@ -1,0 +1,28 @@
+# Claude internal instructions
+CLAUDE.md
+project_instructions.md
+REVIEW.md
+BENCHMARK_PLAN.md
+
+# Rust build artifacts
+target/
+
+# Python
+.venv/
+__pycache__/
+*.so
+*.pyd
+dist/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Docs and figures
+docs/
+
+# Vendored reference codebases
+vendor/
+
+# Stray tool output files
+*.out

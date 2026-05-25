@@ -1,0 +1,23 @@
+data_alpha_quartz
+_cell_length_a   4.913
+_cell_length_b   4.913
+_cell_length_c   5.405
+_cell_angle_alpha   90.000
+_cell_angle_beta    90.000
+_cell_angle_gamma   120.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Si1 Si 0.46990 0.00000 0.33333
+Si2 Si 0.00000 0.46990 0.66667
+Si3 Si 0.53010 0.53010 0.00000
+O1  O  0.41350 0.26690 0.21350
+O2  O  0.73310 0.14660 0.54683
+O3  O  0.85340 0.58650 0.88017
+O4  O  0.26690 0.41350 0.78650
+O5  O  0.14660 0.73310 0.45317
+O6  O  0.58650 0.85340 0.11983

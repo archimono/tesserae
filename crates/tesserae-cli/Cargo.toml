@@ -1,0 +1,17 @@
+[package]
+name = "tesserae-cli"
+version = "0.1.0"
+edition = "2024"
+description = "CLI for symmetry-inequivalent crystal structure enumeration"
+repository = "https://github.com/archimono/tesserae"
+keywords = ["crystallography", "enumeration", "symmetry", "necklace", "combinatorics"]
+categories = ["science", "algorithms"]
+
+[[bin]]
+name = "tesserae"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+tesserae-core = { path = "../tesserae-core" }
+tesserae-io = { path = "../tesserae-io" }

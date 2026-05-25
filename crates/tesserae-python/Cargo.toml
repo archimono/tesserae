@@ -1,0 +1,17 @@
+[package]
+name = "tesserae-python"
+version = "0.1.0"
+edition = "2024"
+description = "Python bindings for tesserae crystal structure enumeration"
+repository = "https://github.com/archimono/tesserae"
+keywords = ["crystallography", "enumeration", "symmetry", "necklace", "combinatorics"]
+categories = ["science", "algorithms"]
+
+[lib]
+name = "tesserae"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.24", features = ["extension-module"] }
+tesserae-core = { path = "../tesserae-core" }
+tesserae-io = { path = "../tesserae-io" }
